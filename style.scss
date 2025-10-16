@@ -100,9 +100,26 @@ header {
   }
 }
 
-// Bottom Nav
+// Bottom Nav Section
 .bottom-nav {
-  @include small-grn-txt;
-  gap: 1rem;
-  padding-bottom: 14px;
+  gap: 0.5rem;
+  p {
+    @include small-grn-txt;
+  }
 }
+
+// Sponserships Section
+.sponsers-section {
+  margin-top: 84px;
+  padding-bottom: 62px;
+}
+
+// Full Image and Motive
+.full-img-section {
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    padding-bottom: 80px;
+  }
+}
+

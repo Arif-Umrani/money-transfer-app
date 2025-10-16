@@ -64,8 +64,20 @@ header {
 }
 
 .bottom-nav {
+  gap: 0.5rem;
+}
+.bottom-nav p {
   color: #D2FD9C;
   font-size: 0.6rem;
-  gap: 1rem;
-  padding-bottom: 14px;
+}
+
+.sponsers-section {
+  margin-top: 84px;
+  padding-bottom: 62px;
+}
+
+.full-img-section h2 {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  padding-bottom: 80px;
 }/*# sourceMappingURL=style.css.map */
