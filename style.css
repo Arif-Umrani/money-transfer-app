@@ -19,10 +19,6 @@ body {
   padding-bottom: 40px;
 }
 
-.large-numbers {
-  font-size: 5.6rem;
-}
-
 header {
   background-color: #394508;
 }
@@ -76,8 +72,30 @@ header {
   padding-bottom: 62px;
 }
 
-.full-img-section h2 {
+.motive-section h2 {
   font-size: 1.2rem;
   margin-top: 25px;
   padding-bottom: 80px;
+}
+
+.goal-section {
+  padding-bottom: 130px;
+}
+.goal-section h2 {
+  font-size: 1.6rem;
+}
+.goal-section p {
+  font-size: 0.68rem;
+}
+
+.card-box {
+  background-color: #D2FD9C;
+  border-radius: 4px;
+}
+.card-box .large-nmbr {
+  font-size: 5.6rem;
+  margin-top: 30px;
+}
+.card-box p {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */

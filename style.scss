@@ -47,9 +47,9 @@ body {
 }
 
 // Large Numbers
-.large-numbers {
-  font-size: 5.6rem;
-}
+// .large-numbers {
+//   font-size: 5.6rem;
+// }
 
 
 header {
@@ -103,6 +103,7 @@ header {
 // Bottom Nav Section
 .bottom-nav {
   gap: 0.5rem;
+
   p {
     @include small-grn-txt;
   }
@@ -115,11 +116,36 @@ header {
 }
 
 // Full Image and Motive
-.full-img-section {
+.motive-section {
   h2 {
     font-size: 1.2rem;
     margin-top: 25px;
     padding-bottom: 80px;
+  }
+}
+
+// Company Goal Section
+.goal-section {
+  padding-bottom: 130px;
+  h2 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 0.68rem;
+  }
+}
+
+// Green Card
+.card-box {
+  background-color: $lightGreen;
+  border-radius: 4px;
+  .large-nmbr {
+    font-size: 5.6rem;
+    margin-top: 30px;
+  }
+
+  p {
+    margin-bottom: 30px;
   }
 }
 
