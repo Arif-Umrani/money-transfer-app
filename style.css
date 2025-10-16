@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Manrope-bold";
+  src: url(assets/fonts/Manrope/static/Manrope-Bold.ttf);
+}
+@font-face {
+  font-family: "manrope-medium";
+  src: url(assets/fonts/Manrope/static/Manrope-Medium.ttf);
+}
+@font-face {
+  font-family: "manrope-regular";
+  src: url(assets/fonts/Manrope/static/Manrope-Regular.ttf);
+}
+body {
+  font-family: "Manrope-regular";
+}
+
+.mtpb-40 {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.large-numbers {
+  font-size: 5.6rem;
+}
+
+header {
+  background-color: #394508;
+}
+
+.lt-grn-btn {
+  background-color: #D2FD9C;
+  border-radius: 0.1rem;
+  border: none;
+  background-color: #D2FD9C;
+}
+
+.main-heading h1 {
+  color: #FFFFFF;
+  font-size: 1.75rem;
+}
+.main-heading h1 span {
+  color: #D2FD9C;
+}
+.main-heading h2 {
+  color: #CBCBCB;
+  font-size: 1rem;
+  letter-spacing: -0.05rem;
+}
+
+.services-banner h3 {
+  color: #D2FD9C;
+  font-size: 0.6rem;
+}
+.services-banner .services-box {
+  width: 30%;
+  height: 105px;
+  background-color: #619111;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.6rem;
+}
+.services-banner .services-box p {
+  font-weight: 600;
+}
+
+.bottom-nav {
+  color: #D2FD9C;
+  font-size: 0.6rem;
+  gap: 1rem;
+  padding-bottom: 14px;
+}/*# sourceMappingURL=style.css.map */

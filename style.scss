@@ -1,0 +1,108 @@
+$darkGreen: #394508;
+$midGreen: #619111;
+$lightGreen: #D2FD9C;
+$midGreenText: #77912A;
+$lightText: #FFFFFF;
+$lightGray: #CBCBCB;
+$blackText: #000000;
+
+// Bold Manrope Font
+@font-face {
+  font-family: 'Manrope-bold';
+  src: url(assets/fonts/Manrope/static/Manrope-Bold.ttf);
+}
+
+// Medium Manrope Font
+@font-face {
+  font-family: 'manrope-medium';
+  src: url(assets/fonts/Manrope/static/Manrope-Medium.ttf);
+}
+
+// Regular Manrope Font
+@font-face {
+  font-family: 'manrope-regular';
+  src: url(assets/fonts/Manrope/static/Manrope-Regular.ttf);
+}
+
+@mixin lightGreen-btn {
+  background-color: $lightGreen;
+  border-radius: 0.1rem;
+  border: none
+}
+
+@mixin small-grn-txt {
+  color: $lightGreen;
+  font-size: 0.6rem;
+}
+
+
+body {
+  font-family: 'Manrope-regular';
+}
+
+// Margin-top and Padding-bottom
+.mtpb-40 {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+// Large Numbers
+.large-numbers {
+  font-size: 5.6rem;
+}
+
+
+header {
+  background-color: $darkGreen;
+}
+
+.lt-grn-btn {
+  @include lightGreen-btn;
+  background-color: $lightGreen;
+}
+
+
+// Main Heading
+.main-heading {
+  h1 {
+    color: $lightText;
+    font-size: 1.75rem;
+
+    span {
+      color: $lightGreen;
+    }
+  }
+
+  h2 {
+    color: $lightGray;
+    font-size: 1rem;
+    letter-spacing: -0.05rem;
+  }
+}
+
+// Our Services Banner
+.services-banner {
+  h3 {
+    @include small-grn-txt;
+  }
+
+  .services-box {
+    width: 30%;
+    height: 105px;
+    background-color: $midGreen;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.6rem;
+
+    p {
+      font-weight: 600;
+    }
+  }
+}
+
+// Bottom Nav
+.bottom-nav {
+  @include small-grn-txt;
+  gap: 1rem;
+  padding-bottom: 14px;
+}
