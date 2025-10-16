@@ -79,7 +79,7 @@ header {
 }
 
 .goal-section {
-  padding-bottom: 130px;
+  padding-bottom: 110px;
 }
 .goal-section h2 {
   font-size: 1.6rem;
@@ -98,4 +98,20 @@ header {
 }
 .card-box p {
   margin-bottom: 30px;
+}
+
+.reliability-section {
+  padding-bottom: 90px;
+}
+.reliability-section h2 {
+  font-size: 1.6rem;
+}
+.reliability-section h4 {
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+.reliability-section p {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: #5D5D5D;
 }/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,7 @@ $lightGreen: #D2FD9C;
 $midGreenText: #77912A;
 $lightText: #FFFFFF;
 $lightGray: #CBCBCB;
+$grayColor: #5D5D5D;
 $blackText: #000000;
 
 // Bold Manrope Font
@@ -126,7 +127,7 @@ header {
 
 // Company Goal Section
 .goal-section {
-  padding-bottom: 130px;
+  padding-bottom: 110px;
   h2 {
     font-size: 1.6rem;
   }
@@ -149,3 +150,19 @@ header {
   }
 }
 
+// Reliability Section
+.reliability-section {
+  padding-bottom: 90px;
+  h2 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 0.68rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: $grayColor;
+  }
+}
