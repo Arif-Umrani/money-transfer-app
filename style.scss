@@ -4,6 +4,7 @@ $lightGreen: #D2FD9C;
 $midGreenText: #77912A;
 $lightText: #FFFFFF;
 $lightGray: #CBCBCB;
+$footerBg: #EDEDED;
 $grayColor: #5D5D5D;
 $blackText: #000000;
 
@@ -205,5 +206,32 @@ header {
   h3 {
     font-size: 1.2rem;
     color: $lightText;
+  }
+}
+
+.footer-section {
+  background-color: $footerBg;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  .ftr-mt140-col {
+    margin-top: 140px;
+  }
+
+  .ftr-contact {
+   font-size: 0.68rem;
+   p {
+    color: $grayColor;
+   }
+   a {
+     color: $blackText;
+     display: block;
+     font-weight: 600;
+     text-decoration: none;
+   }
+
+   .mt-120 {
+    margin-top: 100px;
+   }
   }
 }
