@@ -128,9 +128,12 @@ header {
 // Company Goal Section
 .goal-section {
   padding-bottom: 110px;
+
   h2 {
     font-size: 1.6rem;
+    color: $darkGreen;
   }
+
   p {
     font-size: 0.68rem;
   }
@@ -140,6 +143,7 @@ header {
 .card-box {
   background-color: $lightGreen;
   border-radius: 4px;
+
   .large-nmbr {
     font-size: 5.6rem;
     margin-top: 30px;
@@ -153,16 +157,53 @@ header {
 // Reliability Section
 .reliability-section {
   padding-bottom: 90px;
+
   h2 {
     font-size: 1.6rem;
+    color: $darkGreen;
   }
+
   h4 {
     font-size: 0.68rem;
     font-weight: 600;
   }
+
   p {
     font-size: 0.68rem;
     font-weight: 500;
     color: $grayColor;
+  }
+}
+
+// Software Section
+.software-section {
+  margin-top: 110px;
+  padding-bottom: 88px;
+
+  h2 {
+    font-size: 1.6rem;
+    color: $darkGreen;
+  }
+
+  p {
+    font-size: 0.68rem;
+  }
+}
+
+// Download Banner
+.download-banner {
+  background-image: url(assets/images/downld_banner.png);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+
+  .download-banner-content {
+    margin: 15px;
+
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    color: $lightText;
   }
 }
