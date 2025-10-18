@@ -32,18 +32,18 @@
 
       <!-- Our Services Banner -->
       <div class="container services-banner d-flex">
-        <div class="row">
+        <div class="row justify-content-between">
           <h3 class="mb-3">Our offerings</h3>
-          <div class="col-3 services-box mx-2">
-            <img src="assets/icons/productivity_icon.png" class="mt-4" alt="charge icon">
+          <div class="col-3 services-box">
+            <img src="assets/icons/productivity_icon.png" class="mt-4 img-fluid" alt="charge icon">
             <p class="my-2">Instant Productivity</p>
           </div>
-          <div class="col-3 services-box me-2">
-            <img src="assets/icons/globe_icon.png" class="mt-4" alt="charge icon">
+          <div class="col-3 services-box">
+            <img src="assets/icons/globe_icon.png" class="mt-4 img-fluid" alt="charge icon">
             <p class="my-2">Expense Management</p>
           </div>
           <div class="col-3 services-box">
-            <img src="assets/icons/secure_icon.png" class="mt-4" alt="charge icon">
+            <img src="assets/icons/secure_icon.png" class="mt-4 img-fluid" alt="charge icon">
             <p class="my-2">Advanced Technology</p>
           </div>
         </div>
@@ -59,8 +59,8 @@
     </div>
   </header>
 
-  <!-- Our Sponserships Section -->
-  <section class="sponsers-section">
+  <!-- Our Sponserships Section 1 (Mobile And Tab View) -->
+  <section class="sponsers-section1">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-6 col-md-2 text-center">
@@ -84,33 +84,57 @@
   </section>
 
   <!-- Full Image Banner and Motive -->
-  <section class="motive-section">
-    <div class="container">
+  <section>
+    <div class="container full-img-section">
       <img src="assets/images/Header-banner.png" class="img-fluid" alt="">
     </div>
 
     <!-- Motive -->
-    <div class="container text-center">
+    <div class="container motive-section text-center">
       <h2>We escalate transfer efficiency and productivity</h2>
+    </div>
+  </section>
+
+  <!-- Our Sponserships Section 2 (Desktop View) -->
+  <section class="sponsers-section2">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-6 col-md-2 text-center">
+          <img src="assets/icons/blooming_logo.png" alt="">
+        </div>
+        <div class="col-6 col-md-2">
+          <img src="assets/icons/buildright_logo.png" alt="">
+        </div>
+        <div class="w-100 d-md-none my-4"></div>
+        <div class="col-4 col-md-2">
+          <img src="assets/icons/flowbot_logo.png" alt="">
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="assets/icons/expor_logo.png" alt="">
+        </div>
+        <div class="col-4 col-md-2">
+          <img src="assets/icons/redo_logo.png" alt="">
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Company Goal Section-->
   <section class="goal-section">
-    <div class="container text-center pb-1">
+    <div class="container goal-text text-center pb-1">
       <h2>Get More Done In A Week</h2>
       <p>Maximize your productivity with smarter tools designed to streamline your
         workflow to automate tasks stay organized
       </p>
     </div>
-    <div class="container text-center mt-4">
+    <div class="container goal-text text-center mt-4">
       <h2>Get More Done In A Week</h2>
       <p>Maximize your productivity with smarter tools designed to streamline your
         workflow to automate tasks stay organized
       </p>
     </div>
-    <div class="container">
-      <div class="row text-center m-3">
+    <div class="container p-0">
+      <div class="row card-row text-center">
         <div class="col-12 col-md-5 card-box mt-3">
           <h2 class="large-nmbr">2x</h2>
           <p>Double Your Productivity</p>
@@ -139,15 +163,15 @@
   <section class="reliability-section">
     <div class="container">
       <h2 class="text-center">The Most Reliable App</h2>
-      <div class="row mt-4">
-        <div class="col-12 col-md-5">
-          <img src="assets/images/atm_card.png" class="img-fluid" alt="atm card">
+      <div class="row reliability-row mt-4">
+        <div class="col-12 col-md-6">
+          <img src="assets/images/atm_card.png" class="img-fluid w-100" alt="atm card">
           <h4 class="mt-3 mb-0">Scale Your Team, Not Your Card Expenses</h4>
           <p class="mt-0">Issue virtual and physical cards at no additional cost to support
             teams of any size.</p>
         </div>
-        <div class="col-12 col-md-5">
-          <img src="assets/images/page_img.png" class="img-fluid" alt="page img">
+        <div class="col-12 col-md-6">
+          <img src="assets/images/page_img.png" class="img-fluid w-100" alt="page img">
           <h4 class="mt-3 mb-0">Effortless Paper Tracking, Mobile Convenience</h4>
           <p class="mt-0">Get precise control-at scale-with the ability to lock any card and
             restrict any type of spend.
@@ -159,8 +183,13 @@
 
   <!-- Full Image Banner -->
   <section>
-    <div class="container">
-      <img src="assets/images/per.png" class="img-fluid" alt="person with fon">
+    <div class="container  person-banner1">
+      <img src="assets/images/per.png" class="img-fluid w-100" alt="person with fon">
+    </div>
+  </section>
+  <section>
+    <div class="container  person-banner2">
+      <img src="assets/images/person_banner.png" class="img-fluid" alt="person with fon">
     </div>
   </section>
 
@@ -209,10 +238,10 @@
   <!-- Footer Section -->
   <section class="footer-section">
     <div class="container">
-      <div class="row justify-content-around">
+      <div class="row justify-content-between">
         <div class="col-5 my-4">
           <img src="assets/icons/Logo.png" class="img-fluid" alt="logo">
-          <img src="assets/icons/Etran.png" class="img-fluid ftr-mt140-col" alt="Etran">
+          <img src="assets/icons/Etran.png" class="img-fluid mt-140" alt="Etran">
         </div>
         <div class="col-5 ftr-contact my-4">
           <p>Contact</p>

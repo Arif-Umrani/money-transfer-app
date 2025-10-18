@@ -91,6 +91,8 @@ header {
   .services-box {
     width: 30%;
     height: 105px;
+    margin-right: 4px;
+    margin-left: 4px;
     background-color: $midGreen;
     border-radius: 4px;
     text-align: center;
@@ -105,16 +107,19 @@ header {
 // Bottom Nav Section
 .bottom-nav {
   gap: 0.5rem;
-
   p {
     @include small-grn-txt;
   }
 }
 
 // Sponserships Section
-.sponsers-section {
+.sponsers-section1 {
   margin-top: 84px;
   padding-bottom: 62px;
+}
+
+.sponsers-section2 {
+  display: none;
 }
 
 // Full Image and Motive
@@ -129,18 +134,20 @@ header {
 // Company Goal Section
 .goal-section {
   padding-bottom: 110px;
-
   h2 {
     font-size: 1.6rem;
     color: $darkGreen;
   }
-
   p {
     font-size: 0.68rem;
   }
 }
 
 // Green Card
+.card-row {
+  margin: 15px;
+}
+
 .card-box {
   background-color: $lightGreen;
   border-radius: 4px;
@@ -176,6 +183,11 @@ header {
   }
 }
 
+// Full Image Banner 
+.person-banner2 {
+  display: none;
+}
+
 // Software Section
 .software-section {
   margin-top: 110px;
@@ -209,29 +221,231 @@ header {
   }
 }
 
+// Footer Section
 .footer-section {
   background-color: $footerBg;
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  .ftr-mt140-col {
+
+  .mt-140 {
     margin-top: 140px;
   }
 
   .ftr-contact {
-   font-size: 0.68rem;
-   p {
-    color: $grayColor;
-   }
-   a {
-     color: $blackText;
-     display: block;
-     font-weight: 600;
-     text-decoration: none;
-   }
+    font-size: 0.68rem;
 
-   .mt-120 {
-    margin-top: 100px;
-   }
+    p {
+      color: $grayColor;
+    }
+
+    a {
+      color: $blackText;
+      display: block;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .mt-120 {
+      margin-top: 100px;
+    }
+  }
+}
+
+// --->>DESKTOP TABLET VIEW <<----
+@media screen and (min-width: 768px) {
+
+  // Main Heading
+  .main-heading {
+    h1 {
+      font-size: 2.6rem;
+      width: 50%;
+    }
+  }
+
+  // Our Services Banner
+  .services-banner {
+    .services-box {
+      margin-top: 50px;
+      width: 12rem;
+    }
+  }
+
+  .mtpb-40 {
+    padding-bottom: 5px;
+  }
+
+  // Sponserships Section
+  .sponsers-section2 {
+    display: none;
+  }
+
+  // Full Image and Motive
+  .motive-section {
+    width: 50%;
+    h2 {
+      margin-top: 50px;
+      padding-bottom: 80px;
+    }
+  }
+
+  // Company Goal Section
+  .goal-section {
+    padding-bottom: 80px;
+    .goal-text {
+      width: 60%;
+    }
+
+    h2 {
+      font-size: 2.25rem;
+    }
+    p {
+      color: $grayColor;
+    }
+  }
+
+  // Green Card
+  .card-row {
+    justify-content: space-between;
+  }
+  .card-box {
+    width: 49%;
+  }
+
+  // Reliability Section
+  .reliability-section {
+    padding-bottom: 120px;
+    h2 {
+      font-size: 2.2rem;
+    }
+  }
+
+  // Full Image Banner
+  .person-banner2 {
+    display: block;
+  }
+  .person-banner1 {
+    display: none;
+  }
+
+  // Download Banner
+  .download-banner {
+    background-image: url(assets/images/dwnlnd_tab.png);
+    background-size: cover;
+    .download-banner-content {
+      margin: 50px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      color: $lightText;
+      width: 60%;
+    }
+  }
+
+  // Footer Section
+  .footer-section {
+    img {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+  }
+}
+
+// --->>DESKTOP VIEW <<----
+@media screen and (min-width: 991px) {
+
+  // Main Heading
+  .main-heading {
+    h1 {
+      font-size: 2.6rem;
+      width: 40%;
+    }
+  }
+
+  // Our Services Banner
+  .services-banner {
+    .services-box {
+      width: 7rem;
+    }
+  }
+
+  // Sponserships Section
+  .sponsers-section1 {
+    display: none;
+  }
+
+  .sponsers-section2 {
+    display: block;
+    padding-bottom: 160px;
+  }
+
+  // Full Image and Motive
+  .full-img-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  // Company Goal Section
+  .goal-section {
+    h2 {
+      font-size: 2.6rem;
+    }
+  }
+
+  // Green Card
+  .card-box {
+    height: 240px;
+  }
+
+  // Reliability Section
+  .reliability-section {
+    padding-bottom: 160px;
+    .reliability-row {
+      img {
+        width: 100%;
+      }
+    }
+    h2 {
+      font-size: 2.2rem;
+    }
+    h4 {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.8rem;
+      width: 70%;
+    }
+  }
+
+  // Full Image Banner
+  .person-banner2 {
+    display: block;
+  }
+
+  .person-banner1 {
+    display: none;
+  }
+
+  // Software Section
+  .software-section {
+    margin-top: 150px;
+    padding-bottom: 140px;
+    h2 {
+      font-size: 2.7rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  // Download Banner
+  .download-banner {
+    h3 {
+      font-size: 2rem;
+      color: $lightText;
+    }
   }
 }
