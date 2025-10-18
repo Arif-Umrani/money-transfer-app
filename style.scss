@@ -37,7 +37,6 @@ $blackText: #000000;
   font-size: 0.6rem;
 }
 
-
 body {
   font-family: 'Manrope-regular';
 }
@@ -48,12 +47,6 @@ body {
   padding-bottom: 40px;
 }
 
-// Large Numbers
-// .large-numbers {
-//   font-size: 5.6rem;
-// }
-
-
 header {
   background-color: $darkGreen;
 }
@@ -62,7 +55,6 @@ header {
   @include lightGreen-btn;
   background-color: $lightGreen;
 }
-
 
 // Main Heading
 .main-heading {
@@ -107,6 +99,7 @@ header {
 // Bottom Nav Section
 .bottom-nav {
   gap: 0.5rem;
+
   p {
     @include small-grn-txt;
   }
@@ -134,10 +127,12 @@ header {
 // Company Goal Section
 .goal-section {
   padding-bottom: 110px;
+
   h2 {
     font-size: 1.6rem;
     color: $darkGreen;
   }
+
   p {
     font-size: 0.68rem;
   }
@@ -283,6 +278,7 @@ header {
   // Full Image and Motive
   .motive-section {
     width: 50%;
+
     h2 {
       margin-top: 50px;
       padding-bottom: 80px;
@@ -292,6 +288,7 @@ header {
   // Company Goal Section
   .goal-section {
     padding-bottom: 80px;
+
     .goal-text {
       width: 60%;
     }
@@ -299,6 +296,7 @@ header {
     h2 {
       font-size: 2.25rem;
     }
+
     p {
       color: $grayColor;
     }
@@ -308,6 +306,7 @@ header {
   .card-row {
     justify-content: space-between;
   }
+
   .card-box {
     width: 49%;
   }
@@ -315,6 +314,7 @@ header {
   // Reliability Section
   .reliability-section {
     padding-bottom: 120px;
+
     h2 {
       font-size: 2.2rem;
     }
@@ -324,6 +324,7 @@ header {
   .person-banner2 {
     display: block;
   }
+
   .person-banner1 {
     display: none;
   }
@@ -332,6 +333,7 @@ header {
   .download-banner {
     background-image: url(assets/images/dwnlnd_tab.png);
     background-size: cover;
+
     .download-banner-content {
       margin: 50px;
     }
@@ -403,17 +405,21 @@ header {
   // Reliability Section
   .reliability-section {
     padding-bottom: 160px;
+
     .reliability-row {
       img {
         width: 100%;
       }
     }
+
     h2 {
       font-size: 2.2rem;
     }
+
     h4 {
       font-size: 0.8rem;
     }
+
     p {
       font-size: 0.8rem;
       width: 70%;
@@ -433,9 +439,11 @@ header {
   .software-section {
     margin-top: 150px;
     padding-bottom: 140px;
+
     h2 {
       font-size: 2.7rem;
     }
+
     p {
       font-size: 0.8rem;
     }
