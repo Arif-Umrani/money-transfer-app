@@ -28,6 +28,10 @@ header {
   border-radius: 0.1rem;
   border: none;
   background-color: #D2FD9C;
+  box-shadow: 0px 2px 11px 0px rgb(21, 36, 16);
+}
+.lt-grn-btn:hover {
+  background-color: #619111;
 }
 
 .main-heading h1 {
@@ -60,6 +64,10 @@ header {
 .services-banner .services-box p {
   font-weight: 600;
 }
+.services-banner .services-box:hover {
+  background-color: #D2FD9C;
+  cursor: pointer;
+}
 
 .bottom-nav {
   gap: 0.5rem;
@@ -67,6 +75,10 @@ header {
 .bottom-nav p {
   color: #D2FD9C;
   font-size: 0.6rem;
+}
+.bottom-nav p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .sponsers-section1 {
@@ -102,6 +114,7 @@ header {
 .card-box {
   background-color: #D2FD9C;
   border-radius: 4px;
+  transition: 0.6s ease;
 }
 .card-box .large-nmbr {
   font-size: 5.6rem;
@@ -109,6 +122,11 @@ header {
 }
 .card-box p {
   margin-bottom: 30px;
+}
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 2px 0px #bcbcbc;
+  cursor: pointer;
 }
 
 .reliability-section {
@@ -142,6 +160,13 @@ header {
 }
 .software-section p {
   font-size: 0.68rem;
+}
+.software-section img {
+  transition: 0.5s ease;
+}
+.software-section img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .download-banner {
@@ -256,7 +281,7 @@ header {
   .right-side {
     background-color: #394508;
   }
-  .right-side .section {
+  .right-side .header-section {
     width: 33%;
     position: fixed;
   }
