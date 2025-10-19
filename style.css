@@ -186,7 +186,6 @@ header {
 @media screen and (min-width: 768px) {
   .main-heading h1 {
     font-size: 2.6rem;
-    width: 50%;
   }
   .services-banner .services-box {
     margin-top: 50px;
@@ -263,7 +262,6 @@ header {
   }
   .main-heading h1 {
     font-size: 2.6rem;
-    width: 40%;
   }
   .services-banner .services-box {
     width: 7rem;
