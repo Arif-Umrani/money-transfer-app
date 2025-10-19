@@ -357,6 +357,14 @@ header {
 
 // --->>DESKTOP VIEW <<----
 @media screen and (min-width: 991px) {
+.right-side {
+  background-color: #394508;
+
+  .section {
+    width: 33%;
+    position: fixed;
+  }
+}
 
   // Main Heading
   .main-heading {

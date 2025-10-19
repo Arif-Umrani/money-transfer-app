@@ -254,6 +254,13 @@ header {
   }
 }
 @media screen and (min-width: 991px) {
+  .right-side {
+    background-color: #394508;
+  }
+  .right-side .section {
+    width: 33%;
+    position: fixed;
+  }
   .main-heading h1 {
     font-size: 2.6rem;
     width: 40%;
