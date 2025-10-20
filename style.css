@@ -14,9 +14,12 @@ body {
   font-family: "Manrope-regular";
 }
 
-.mtpb-40 {
-  margin-top: 40px;
+.pb-40 {
   padding-bottom: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 header {

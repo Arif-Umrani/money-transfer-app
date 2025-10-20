@@ -42,11 +42,15 @@ body {
 }
 
 // Margin-top and Padding-bottom
-.mtpb-40 {
-  margin-top: 40px;
+.pb-40 {
   padding-bottom: 40px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
+// Header Section
 header {
   background-color: $darkGreen;
 }
