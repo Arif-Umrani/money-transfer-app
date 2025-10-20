@@ -281,10 +281,6 @@ header {
   .right-side {
     background-color: #394508;
   }
-  .right-side .header-section {
-    width: 33%;
-    position: fixed;
-  }
   .main-heading h1 {
     font-size: 2.6rem;
   }

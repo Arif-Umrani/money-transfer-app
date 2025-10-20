@@ -51,7 +51,6 @@ header {
   background-color: $darkGreen;
 }
 
-
 .lt-grn-btn {
   @include lightGreen-btn;
   background-color: $lightGreen;
@@ -282,7 +281,6 @@ header {
 
 // --->>DESKTOP TABLET VIEW <<----
 @media screen and (min-width: 768px) {
-
   // Main Heading
   .main-heading {
     h1 {
@@ -392,11 +390,6 @@ header {
 
   .right-side {
     background-color: #394508;
-
-    .header-section {
-      width: 33%;
-      position: fixed;
-    }
   }
 
   // Main Heading
