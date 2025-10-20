@@ -15,7 +15,7 @@ body {
 }
 
 .pb-40 {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .mt-40 {
@@ -218,6 +218,9 @@ header {
   .services-banner .services-box {
     margin-top: 50px;
     width: 12rem;
+  }
+  .pb-40 {
+    padding-bottom: 5px;
   }
   .sponsers-section2 {
     display: none;

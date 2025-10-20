@@ -43,7 +43,7 @@ body {
 
 // Margin-top and Padding-bottom
 .pb-40 {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .mt-40 {
@@ -285,6 +285,7 @@ header {
 
 // --->>DESKTOP TABLET VIEW <<----
 @media screen and (min-width: 768px) {
+
   // Main Heading
   .main-heading {
     h1 {
@@ -298,6 +299,11 @@ header {
       margin-top: 50px;
       width: 12rem;
     }
+  }
+
+  // Padding-40 class in default view is Padding-5 here in Tablet View
+  .pb-40 {
+    padding-bottom: 5px;
   }
 
   // Sponserships Section
